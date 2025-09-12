@@ -24,3 +24,14 @@ def elojel(szam):
 szam = int(input("Kérek egy számot elojellel"))
 
 print(f"A {szam} elojele: {elojel(szam)}")
+
+def tesztesetek():
+        teszt(5, "+")
+        teszt(-3,"-")
+        
+
+def teszt(szam , elvart_elojel):
+    if elojel(szam) == elvart_elojel:
+        print(f"elojel({szam})=={elvart_elojel} true")
+    else:
+        print(f"elojel({szam})=={elvart_elojel} false")
