@@ -18,10 +18,11 @@ print(str(5.0))
 print(type(str(5.0)))
 print(bool(-1))
 print(["hétfő", "kedd","szerda "])
-napok = ["hétfő" , "kedd" ,"szerda "]
+napok = ["hétfő" , "kedd" ,"szerda"]
 nevek =["Tibi" , "Sanyi" , "Tibi"]
 print(f"Napok: {set(nevek)}")
 print (tuple([1,2,3]))
+
 
 # HF: git parancsok:
 #git init : adott mappa verziókövetésének inditása
