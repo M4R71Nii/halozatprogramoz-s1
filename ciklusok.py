@@ -37,11 +37,11 @@ while True:
     if adat.strip()== "":
         break
     try:
-       
+        szam=float(adat.replace(",","."))
         osszeg += szam
     except ValueError:
         print("ez nem szám ") 
 
-print (f"az összeg eredménye{osszeg}")     
+print (f"az összeg eredménye")     
         
         
