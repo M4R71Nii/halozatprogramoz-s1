@@ -20,4 +20,15 @@ print (f"Az-2es szambol ennyi darab van:{kettes_db}")
 print (f"Az-3es szambol ennyi darab van:{harmas_db}")
 print (f"Az-4es szambol ennyi darab van:{negyes_db}")
 print (f"Az-5es szambol ennyi darab van:{otos_db}")
-        
+
+for i in range(1,6):
+    print(f"{i} böl van {szamok.count(i)}")
+
+
+darab=[0,0,0,0,0]
+for szam in szamok:
+    darab[szam-1]+=1
+print(darab)
+
+for i in range(len(darab)):
+    print(f"{i+1} bol van {darab[i]}")

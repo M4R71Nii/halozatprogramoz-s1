@@ -13,7 +13,7 @@ def paros_db(lista):
     darab=0
     for elem in lista:
         if elem % 2 == 0:
-            darab +=3
+            darab +=1
         return darab
 print(f"A lista páros elemeinek darabszáma: {paros_db(lista)}")
 
